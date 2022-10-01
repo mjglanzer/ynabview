@@ -1,11 +1,9 @@
 import sys
 import click
 import configparser
-from collections import defaultdict
 
 from ynab import YNABClient
 from organize import organize_ynab_statement_data
-from sheet import Worksheet
 
 
 def load_config(config_name: str):
